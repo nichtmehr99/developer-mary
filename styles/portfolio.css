@@ -13,6 +13,7 @@ body {
     font-weight: 700;
     color: #ffffff;
     border: none;
+    padding: 18px 35px ;
 }
 
 
@@ -20,6 +21,8 @@ body {
 /* nav related style */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-title {
     color: black;
@@ -29,6 +32,8 @@ nav {
 }
 nav > ul {
     display: flex;
+    align-items: center;
+    
 }
 nav li a {
     text-decoration: none;
@@ -40,4 +45,5 @@ nav li a {
 nav li{
     list-style: none;
     margin-right: 50px;
+    
 }
